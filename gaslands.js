@@ -3,6 +3,7 @@ $(document).ready( () => {
         $(this).parent().children().each(function() {
             $(this).removeClass("selected");
         });
-        $(this).addClass("selected")
-    })
+        $(this).addClass("selected");
+        $(document).scrollTop($(this).parent().parent().next().offset().top);
+    });
 })
