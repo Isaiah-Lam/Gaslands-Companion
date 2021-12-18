@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.slide {
+    height: 85vh;
+    width: 95vw;
+    margin: 15px auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.option {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 85%;
+    padding: 10px;
+    margin: 2%;
+    background-color: tan;
+    color: black;
+}
+
+.option:hover {
+    background-color: sienna;
+    color: white;
+}
+
+.selected {
+    background-color: sienna;
+    color: white;
+}
+
+.gear {
+    width: 33%;
+}
