@@ -8,29 +8,36 @@ html {
     scroll-behavior: smooth;
 }
 
+h1 {
+    font-size: 7vh;
+}
+
 .slide {
-    height: 85vh;
+    height: 90vh;
     width: 95vw;
     margin: 15px auto;
     border: 2px solid black;
     border-radius: 15px;
     text-align: center;
+    background-color: tan;
 }
 
 .flexbox {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .option {
     border: 1px solid black;
     border-radius: 5px;
     width: 85%;
-    padding: 10px;
+    height: fit-content;
+    padding: 15px;
     margin: 2%;
-    background-color: tan;
+    background-color: rgb(218, 218, 218);
     color: black;
+    font-size: 6vh;
 }
 
 .option:hover {
