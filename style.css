@@ -22,6 +22,10 @@ h1 {
     background-color: tan;
 }
 
+#results-container {
+    height: fit-content;
+}
+
 .flexbox {
     display: flex;
     flex-wrap: wrap;
@@ -64,7 +68,7 @@ h1 {
 }
 
 .results-text {
-    font-size: 6vh;
+    font-size: 3vh;
     margin: 10px auto;
     width: 75%;
 }
