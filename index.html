@@ -12,6 +12,7 @@
     <body>
         
         <div id="collision-types" class="slide">
+            <p class="required-text">*This information is required*</p>
             <h1>Collision Type:</h1>
             <div id="collision-flex" class="flexbox">
                 <div class="collision-type option">Head On</div>
@@ -22,6 +23,7 @@
         </div>
 
         <div id="active-weight" class="slide">
+            <p class="required-text">*This information is required*</p>
             <h1>Active Car's Weight:</h1>
             <div class="weight-flex flexbox">
                 <div class="weight option">Light</div>
@@ -31,6 +33,7 @@
         </div>
 
         <div id="active-gear" class="slide">
+            <p class="required-text">*This information is required*</p>
             <h1>Active Car's Gear:</h1>
             <div class="gear-flex flexbox">
                 <div class="gear option">1</div>
@@ -43,6 +46,7 @@
         </div>
 
         <div id="active-reaction" class="slide">
+            <p class="required-text">*This information is required*</p>
             <h1>Active Car's Reaction</h1>
             <div class="reaction-flex flexbox">
                 <div class="reaction option">Smash Attack</div>
@@ -51,6 +55,7 @@
         </div>
 
         <div id="passive-weight" class="slide">
+            <p class="required-text">*This information is required*</p>
             <h1>Passive Car's Weight:</h1>
             <div class="weight-flex flexbox">
                 <div class="weight option">Light</div>
@@ -60,6 +65,7 @@
         </div>
 
         <div id="passive-gear" class="slide">
+            <p class="required-text">*This information is required*</p>
             <h1>Passive Car's Gear:</h1>
             <div class="gear-flex flexbox">
                 <div class="gear option">1</div>
@@ -72,6 +78,7 @@
         </div>
 
         <div id="passive-reaction" class="slide">
+            <p class="required-text">*This information is required*</p>
             <h1>Passive Car's Reaction</h1>
             <div class="reaction-flex flexbox">
                 <div class="reaction option">Smash Attack</div>
@@ -79,8 +86,11 @@
             </div>
         </div>
 
-        <div id="results-div" class="slide">
-            <h1></h1>
+        <div id="results-container">
+            <h1>Results</h1>
+            <button type="button" id="results-btn" onclick="pickFunction(this.innerText)">Calculate</button>
+            <div id="results"></div>
+
         </div>
 
     </body>

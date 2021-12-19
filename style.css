@@ -12,7 +12,7 @@ h1 {
     font-size: 7vh;
 }
 
-.slide {
+.slide, #results-container {
     height: 90vh;
     width: 95vw;
     margin: 15px auto;
@@ -52,4 +52,28 @@ h1 {
 
 .gear {
     width: 33%;
+}
+
+.required-text {
+    visibility: hidden;
+    color: red;
+}
+
+#results {
+    padding: 25px;
+}
+
+.results-text {
+    font-size: 6vh;
+    margin: 10px auto;
+    width: 75%;
+}
+
+#results-btn {
+    padding: 10px;
+    color: white;
+    background-color: sienna;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 5vh;
 }
